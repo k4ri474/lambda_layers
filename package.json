@@ -1,0 +1,7 @@
+{
+    "name": "pms-api",
+    "private": true,
+    "dependencies": {
+        "serverless-python-requirements": "^5.0.1"
+    }
+}

@@ -1,0 +1,11 @@
+boto3==1.11.11
+botocore==1.14.11
+fastapi
+uvicorn
+requests
+mkdocs
+mkdocs-material
+pytest
+pytest-cov
+black
+mangum

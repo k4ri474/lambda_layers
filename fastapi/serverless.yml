@@ -1,0 +1,26 @@
+service: fastapi-layer
+
+plugins:
+  - serverless-python-requirements
+
+provider:
+  name: aws
+  runtime: python3.7
+  region: ap-northeast-1
+  stackName: '${self:service}' # Default is ${self:service}-${self:provider.stage}
+
+custom:
+  pythonRequirements:
+    dockerizePip: false
+    noDeploy: []
+    layer:
+      name: ${self:service}
+  prune:
+    automatic: true
+    number: 5
+
+resources:
+  Outputs:
+    LambdaLayerArn:
+      Value:
+        Ref: PythonRequirementsLambdaLayer
