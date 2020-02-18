@@ -3,6 +3,8 @@ site_name: lambda-layers
 theme:
     name: 'material'
 
+docs_dir: mkdocs
+
 repo_name: k4ri474/lambda_layers
 repo_url: https://github.com/k4ri474/lambda_layers
 edit_uri: ''
