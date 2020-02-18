@@ -105,3 +105,6 @@ dist
 
 # git
 .git
+
+# mkdocs
+site

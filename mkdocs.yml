@@ -1,0 +1,13 @@
+site_name: lambda-layers
+
+theme:
+    name: 'material'
+
+repo_name: k4ri474/lambda_layers
+repo_url: https://github.com/k4ri474/lambda_layers
+edit_uri: ''
+
+markdown_extensions:
+    - markdown.extensions.codehilite:
+        guess_lang: false
+    - codehilite
