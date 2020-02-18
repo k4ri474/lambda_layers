@@ -1,6 +1,13 @@
 # Overview
 [Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) for personal application.
 
+---
+
+**Documentation**: https://k4ri474.github.io/lambda_layers/
+**Source Code**: https://github.com/k4ri474/lambda_layers
+
+---
+
 ## My Layers
 - **[fastapi-layer](fastapi-layer.md)**: for api system using [FastAPI](https://fastapi.tiangolo.com/)
 
