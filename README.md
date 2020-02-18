@@ -10,7 +10,7 @@
 ---
 
 ## My Layers
-- **[fastapi-layer](fastapi-layer.md)**: for api system using [FastAPI](https://fastapi.tiangolo.com/)
+- **[fastapi-layer](https://github.com/k4ri474/lambda_layers/tree/master/fastapi)**: for api system using [FastAPI](https://fastapi.tiangolo.com/)
 
 ## Requirements
 [serverless framework](https://serverless.com/) is required to deploy Lambda Layer.
