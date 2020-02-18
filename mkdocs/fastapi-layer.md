@@ -15,7 +15,7 @@ mangum            # handler for API-GW -> Lambda -> FastAPI
 ```
 
 ## usage
-1. Change directory to `lambda_layers/fastapi`.
+1. Change directory to `lambda_layers/layers/fastapi`.
 2. Deploy Lambda Layer by Serverless Framework.
 ```
 sls deploy
